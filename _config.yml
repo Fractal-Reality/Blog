@@ -1,0 +1,46 @@
+# Encoding
+encoding: utf-8
+
+# Site basics
+title: Fractal Reality
+tagline: Whispers of an infinite verse
+description: |
+  <div class="image">
+    <img class="thumbnail" src="/public/images/profile.jpg">
+  </div>
+
+# URLs
+baseurl: '' 
+url: https://blog.fractal-reality.tech
+paginate:            5
+permalink:           pretty
+
+# Github
+github: [metadata]
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Default image for all limit_posts:
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /public/images/profile.jpg
+
+# Twitter
+twitter:
+  username: iam_anandv
+  card: summary
+
+# About/contact
+author:
+  name:    Anand Venkatanarayanan
+
+# Only for github. This is overridden anyway.
+theme: jekyll-theme-tactile

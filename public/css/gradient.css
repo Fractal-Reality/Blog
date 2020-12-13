@@ -1,0 +1,6 @@
+/* Defines gradient background for the entire page */    
+
+.grad {
+      background-image: linear-gradient(to right, rgb(255,255,255), rgb(245,245,245), rgb(220,220,220), rgb(192,192,192));
+}
+
